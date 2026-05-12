@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Run Shop</title>
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      overflow:hidden;
+
+      /* Background */
+      background:
+      linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.8)),
+      repeating-linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.158) 0px,
+        rgba(255, 255, 255, 0.123) 2px,
+        transparent 2px,
+        transparent 40px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.103) 0px,
+        rgba(255, 255, 255, 0.089) 2px,
+        transparent 2px,
+        transparent 40px
+      ),
+      linear-gradient(to right, #125858, #02161b);
+
+      background-size: cover;
+    }
+
+    .container{
+      width:100%;
+      max-width:400px;
+      text-align:center;
+      padding:20px;
+    }
+
+    /* Logo */
+    .logo{
+      width:170px;
+      height:170px;
+      margin:0 auto 60px;
+      border-radius:50%;
+      background:#fff;
+      border:3px solid #1f5d5d;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      overflow:hidden;
+    }
+    .text1{
+      color:#1f4d4d;
+    }
+
+    .logo img{
+      width: 175px;
+      margin-left: 15px;
+      
+    }
+    .link-btn i{
+      font-size:22px;
+      margin-right: 20px;
+    }
+
+    /* Buttons */
+    .link-btn{
+      display:block;
+      width:260px;
+      margin:25px auto;
+      padding:18px;
+      border-radius:40px;
+      background:#d9d9d9;
+      color:#1f4d4d;
+      text-decoration:none;
+      font-size:20px;
+      border:3px solid #1f5d5d;
+      transition:0.3s;
+      box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .link-btn:hover{
+      background:#1f5d5d;
+      color:white;
+      transform:scale(1.05);
+    }
+
+    @media(max-width:480px){
+
+      .logo{
+        width:140px;
+        height:140px;
+        
+      }
+
+      .link-btn{
+        width:230px;
+        font-size:18px;
+        padding:16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+  
+    <!-- Logo -->
+    <div class="logo">
+      <img src="img/logo-the-run.jpg" alt="Logo">
+    </div>
+    <div class="text1"><h1>My contact <i class="fa-solid fa-store"></i></i></h1></div>
+
+    <!-- Links -->
+    <a href="https://www.facebook.com/share/1EDHkJRshx/" class="link-btn"><i class="fa-brands fa-facebook-f"></i>Facebook Page</a>
+
+    <a href="https://t.me/kdontworry" class="link-btn"><i class="fa-brands fa-telegram"></i>Telegram Admin</a>
+
+    <a href="https://t.me/+vdgqeN3dTQY2OGJl" class="link-btn"><i class="fa-brands fa-telegram"></i>
+      Group Telegram
+    </a>
+
+  </div>
+
+</body>
+</html>
+```
